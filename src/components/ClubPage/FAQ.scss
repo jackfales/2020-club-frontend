@@ -1,0 +1,19 @@
+.expandable-layout-text-enter {
+   opacity: 0;
+   max-height: 0;
+ }
+ .expandable-layout-text-enter-active {
+   opacity: 1;
+   max-height: 500px;
+   transition: opacity 750ms, max-height 750ms;
+
+ }
+ .expandable-layout-text-exit {
+   opacity: 1;
+   max-height: 500px;
+ }
+ .expandable-layout-text-exit-active {
+   opacity: 0;
+   max-height: 0px;
+   transition: opacity 750ms, max-height 750ms;
+ }

@@ -1,0 +1,12 @@
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.social-media-icon {
+  width: 46px;
+  height: 46px;
+  filter: grayscale(100%);
+}

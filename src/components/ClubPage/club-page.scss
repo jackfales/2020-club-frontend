@@ -1,0 +1,96 @@
+/* VARIABLES */
+//-----SOLID COLORS-----//
+$navy: #5D5EAA;
+$cherry: #F06644;
+$mustard: #FACC40;
+$black: #000000;
+$white: #FFFFFF;
+
+//-----OPAQUE COLORS-----//
+$twilight: #CACBEB;
+$blush: #F4D2C9;
+$gold: #FAE9B7;
+
+//-----GRADIENTS-----//
+$blue-yellow-gradient: linear-gradient(180deg, $navy 3.58%, #847CB2 15.25%, #F4D2C9 53.08%, #FAE9B7 85.93%);
+
+/* STYLES */
+//-----TEMPORARY STYLES-----//
+.club-landing-container {
+   height: 100vh;
+   min-height: 600px;
+}
+
+.club-about-container {
+   margin-top: 50px;
+}
+
+.club-events-container {
+   margin-top: 175px;
+}
+
+.club-sponsors-container {
+   margin-top: 175px;
+}
+
+.club-faq-container {
+   margin-top: 175px;
+   min-height: 720px;
+}
+
+.club-team-container {
+   // height: 100vh;
+   max-width: 100%;
+   text-align: center;
+}
+
+.club-team-bubble {
+  height: 350px;
+  width: 2000px;
+
+  background-color: #ffffff;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.h2-inversed {
+  color: $black !important;
+}
+//-----CLUB PAGE SHARED STYLES-----//
+.gradient-sections {
+   background: $blue-yellow-gradient;
+   mix-blend-mode: normal;
+}
+
+h2 {
+   font-family: montserrat,sans-serif;
+   font-weight: 700 !important;
+   font-style: normal !important;
+   font-size: 35px !important;
+   line-height: 48px !important;
+
+   margin-top: 0px;
+
+   color: $white;
+}
+
+h3 {
+   font-family: proxima-nova,sans-serif;
+   font-weight: 700 !important;
+   font-style: normal !important;
+   font-size: 30px !important;
+   line-height: 30px !important;
+
+   color: $white;
+}
+
+p {
+   font-family: proxima-nova,sans-serif;
+   font-weight: 400 !important;
+   font-style: normal !important;
+   font-size: 20px !important;
+   line-height: 22px !important;
+   text-align: left;
+
+   color: $white;
+}

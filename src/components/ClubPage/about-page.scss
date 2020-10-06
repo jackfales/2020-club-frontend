@@ -1,0 +1,179 @@
+.leftcol{
+   margin-left: -3%;
+}
+
+.rightcol{
+   margin-right: -3%;
+}
+
+.circle-image {
+   border-radius: 50%;
+}
+
+.building-hacker-community{
+   margin-left: 5%;
+}
+
+.content-mobile{
+
+   .header{
+      margin-top: 5%;
+      margin-bottom: 5%;
+   }
+
+   .coders{
+      margin-left: 55%;
+      margin-top: 13%;
+      width: 50%;
+   }
+
+   .pizza-girl{
+      z-index: 2;
+      margin-top: -50%;
+      margin-left: 6%;
+      width: 50%;
+   }
+
+   .cloud1{
+      margin-top: -55%;
+      margin-left: -5%;
+      z-index: 1;
+      width: 50%;
+   }
+
+   .cloud2{
+      margin-left: -10%;
+      margin-top: -10%;
+      width: 50%;
+   }
+
+   .cloud3{
+      margin-left: 60%;
+      margin-top: -10%;
+      width: 50%;
+   }
+
+   .tri1{
+      margin-left: -60%;
+      margin-top: 10%;
+      z-index: 4;
+      height: 30%;
+   }
+
+   .tri2{
+      margin-top: -5%;
+      margin-left: -5%;
+      z-index: 3;
+      height: 30%;
+   }
+
+   .tri3{
+      margin-top: 5%;
+      margin-left: -20%;
+      height: 30%;
+   }
+
+   .tri4{
+      margin-top: -130%;
+      margin-left: 90%;
+      height: 30%;
+   }
+}
+
+.content-large{
+
+   .header{
+      margin-top: 20%;
+      margin-bottom: 5%;
+   }
+
+   .coders{
+      margin-left: 45%;
+      margin-top: 3%;
+      width: 50%;
+   }
+
+   .pizza-girl{
+      z-index: 2;
+      margin-top: -35%;
+      margin-left: 6%;
+      width: 50%;
+   }
+
+   .cloud1{
+      margin-top: -60%;
+      margin-left: -5%;
+      z-index: 1;
+      width: 50%;
+   }
+
+   .cloud2{
+      margin-left: 10%;
+      margin-top: 5%;
+      width: 50%;
+   }
+
+   .cloud3{
+      margin-left: 60%;
+      margin-top: -10%;
+      width: 50%;
+   }
+
+   .tri1{
+      margin-left: -60%;
+      margin-top: 10%;
+      z-index: 4;
+      height: 20%;
+   }
+
+   .tri2{
+      margin-top: -5%;
+      margin-left: -5%;
+      z-index: 3;
+      height: 20%;
+   }
+
+   .tri3{
+      margin-top: 15%;
+      margin-left: -15%;
+      height: 20%;
+   }
+
+   .tri4{
+      margin-top: -100%;
+      margin-left: 85%;
+      height: 20%;
+   }
+}
+
+.content-medium {display: none;}
+.content-mobile {display: none;}
+
+@media only screen and (max-width: 800px) {
+   .content-large{
+      display: block;
+   }
+   
+   .content-mobile{
+      display: none;
+   }
+
+   .content-medium{
+      display: block;
+   }
+}
+
+@media only screen and (max-width: 435px) {
+   .content-large {
+      display: none;
+   }
+
+   .content-medium {
+      display: none;
+   }
+
+   .content-mobile {
+      display: block;
+      overflow: hidden;
+   }
+}
